@@ -5,247 +5,247 @@
     <rules>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D001</key>
+            <key>D001</key> <!-- Fun application with arguments ~s, Function that will never return a value -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D002</key>
+            <key>D002</key> <!-- The call ~s:~s~s requires that ~s is of type ~s not ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D003</key>
+            <key>D003</key> <!-- Binary construction will fail since the ~s field ~s in segment ~s has type ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D004</key>
+            <key>D004</key> <!-- The call ~w:~w~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D005</key>
+            <key>D005</key> <!-- Call to missing or unexported function ~w:~w/~w -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D006</key>
+            <key>D006</key> <!-- The test ~s ~s ~s can never evaluate to 'true' -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D007</key>
+            <key>D007</key> <!-- Fun application with arguments ~s will fail since the function has type ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D008</key>
+            <key>D008</key> <!-- Fun application will fail since ~s :: ~s is not a function of arity ~w -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D009</key>
+            <key>D009</key> <!-- Guard test ~s ~s ~s can never succeed, Guard test ~w~s can never succeed -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D010</key>
+            <key>D010</key> <!-- Guard test not(~s ~s ~s) can never succeed, Guard test not(~w~s) can never succeed -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D011</key>
+            <key>D011</key> <!-- Clause guard cannot succeed. The ~s was matched against the type ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D012</key>
+            <key>D012</key> <!-- Cons will produce an improper list since its 2nd argument is ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D013</key>
+            <key>D013</key> <!-- The created fun has no clauses that will ever match, The created fun only terminates with explicit exception, The created fun has no local return, The created fun has no local return, Function ~w/~w has no clauses that will ever match, Function ~w/~w only terminates with explicit exception, Function ~w/~w has no local return, Function ~w/~w has no local return -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D014</key>
+            <key>D014</key> <!-- Record construction ~s violates the declared type of field ~s, Record construction violates the declared type for #~w{} since ~s cannot be of type ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D015</key>
+            <key>D015</key> <!-- The ~s violates the declared type for #~w{} -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D016</key>
+            <key>D016</key> <!-- Matching of ~s tagged with a record name violates the declared type of ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D017</key>
+            <key>D017</key> <!-- The ~s can never match the type ~s, The ~s can never match since previous clauses completely covered the type ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D018</key>
+            <key>D018</key> <!-- Expression produces a value of type ~s, but this value is unmatched -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D019</key>
+            <key>D019</key> <!-- Function will never be called, Function ~w/~w will never be called -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D021</key>
+            <key>D021</key> <!-- Type specification ~w:~w~s is not equal to the success typing: ~w:~w~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D022</key>
+            <key>D022</key> <!-- Type specification ~w:~w~s is a subtype of the success typing: ~w:~w~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D023</key>
+            <key>D023</key> <!-- Type specification ~w:~w~s is a supertype of the success typing: ~w:~w~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D024</key>
+            <key>D024</key> <!-- The contract ~w:~w~s cannot be right because the inferred return for ~w~s on line ~w is ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D025</key>
+            <key>D025</key> <!-- Invalid type specification for function ~w:~w/~w. The success typing is ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D026</key>
+            <key>D026</key> <!-- The specification for ~w:~w/~w states that the function might also return ~s but the inferred return is ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D027</key>
+            <key>D027</key> <!-- Overloaded contract has overlapping domains; such contracts are currently unsupported and are simply ignored -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D028</key>
+            <key>D028</key> <!-- Contract for function that does not exist: ~w:~w/~w -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D029</key>
+            <key>D029</key> <!-- The call ~w:~w~s contains ~s when ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D030</key>
+            <key>D030</key> <!-- The call ~w:~w~s does not have ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D031</key>
+            <key>D031</key> <!-- Attempt to test for equality between a term of type ~s and a term of opaque type ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D032</key>
+            <key>D032</key> <!-- Guard test ~w~s breaks the opaqueness of its argument -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D033</key>
+            <key>D033</key> <!-- The attempt to match a term of type ~s against the ~s breaks the opaqueness of ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D034</key>
+            <key>D034</key> <!-- Attempt to test for inequality between a term of type ~s and a term of opaque type ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D035</key>
+            <key>D035</key> <!-- The type test ~s(~s) breaks the opaqueness of the term ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D036</key>
+            <key>D036</key> <!-- The call ~w:~w~s ~s -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D037</key>
+            <key>D037</key> <!-- The inferred return type of ~w/~w (~s) has nothing in common with ~s, which is the expected return type for the callback of ~w behaviour -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D038</key>
+            <key>D038</key> <!-- The inferred type for the ~s argument of ~w/~w (~s) is not a supertype of ~s, which is expected type for this argument in the callback of the ~w behaviour -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D039</key>
+            <key>D039</key> <!-- The return type ~s in the specification of ~w/~w is not a subtype of ~s, which is the expected return type for the callback of ~w behaviour -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D040</key>
+            <key>D040</key> <!-- The specified type for the ~s argument of ~w/~w (~s) is not a supertype of ~s, which is expected type for this argument in the callback of the ~w behaviour -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D041</key>
+            <key>D041</key> <!-- Undefined callback function ~w/~w (behaviour '~w') -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D042</key>
+            <key>D042</key> <!-- Callback info about the ~w behaviour is not available -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
@@ -462,46 +462,45 @@
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
-            <key>X001</key>
+            <key>X001</key> <!-- Warning: ~s:~s/~s calls undefined function ~s:~s/~s (Xref) -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
-            <key>X002</key>
+            <key>X002</key> <!-- Warning: ~s:~s/~s is undefined function (Xref) -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
-            <key>X003</key>
+            <key>X003</key> <!-- Warning: ~s:~s/~s is unused local function (Xref) -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
-            <key>X004</key>
+            <key>X004</key> <!-- Warning: ~s:~s/~s is unused export (Xref) -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
-            <key>X005</key>
+            <key>X005</key> <!-- Warning: ~s:~s/~s calls deprecated function ~s:~s/~s (Xref) -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
-            <key>X006</key>
+            <key>X006</key> <!-- Warning: ~s:~s/~s is deprecated function (Xref) -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
-            <key>X007</key>
+            <key>X007</key> <!-- Warning: ~s:~s/~s - ~s xref check: ~s (Xref) -->
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
     </rules>
 </profile>
-
