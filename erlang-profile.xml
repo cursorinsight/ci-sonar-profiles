@@ -252,7 +252,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>BlockSeparatorCharacter</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters>
                 <parameter>
                     <key>allowedChars</key>
@@ -263,7 +263,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>BranchesOfRecursion</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters>
                 <parameter>
                     <key>maximumBORThreshold</key>
@@ -274,7 +274,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>DepthOfCases</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters>
                 <parameter>
                     <key>maximumCaseDepthThreshold</key>
@@ -285,13 +285,13 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>DoNotUseEmptyFlowControl</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>DoNotUseExportAll</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters>
                 <parameter>
                     <key>skipInFlowControl</key>
@@ -302,25 +302,25 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>DoNotUseImport</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>ExportOneFunctionPerLine</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>FixmeCommentCheck</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>FunExpressionComplexity</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters>
                 <parameter>
                     <key>maximumFunExpressionComplexityThreshold</key>
@@ -331,7 +331,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>FunctionComplexity</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters>
                 <parameter>
                     <key>maximumFunctionComplexityThreshold</key>
@@ -342,7 +342,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>FunctionDefAndClausesSeparation</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters>
                 <parameter>
                     <key>allowedBlankLinesBetweenDefinitions</key>
@@ -357,7 +357,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>FunctionLength</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters>
                 <parameter>
                     <key>maximumFunctionLengthThreshold</key>
@@ -368,7 +368,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>IndentionSize</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters>
                 <parameter>
                     <key>regularExpression</key>
@@ -379,13 +379,13 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>IsTailRecursive</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>LineLength</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters>
                 <parameter>
                     <key>maximumLineLength</key>
@@ -396,7 +396,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>MethodHasSpecs</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters>
                 <parameter>
                     <key>specsType</key>
@@ -407,7 +407,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>MultipleBlankLines</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters>
                 <parameter>
                     <key>maxBlankLinesInsideFunctions</key>
@@ -422,25 +422,25 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>NoEmacsStyleLeadingComma</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>NoTabsForIndention</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>NoTrailingWhiteSpace</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>NumberOfFunctionArgs</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters>
                 <parameter>
                     <key>maximumFunctionArgumentThreshold</key>
@@ -451,55 +451,55 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>SpaceAfterBeforeOperators</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>TodoCommentCheck</key>
-            <priority>MAJOR</priority>
+            <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
             <key>X001</key> <!-- Warning: ~s:~s/~s calls undefined function ~s:~s/~s (Xref) -->
-            <priority>MAJOR</priority>
+            <priority>CRITICAL</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
             <key>X002</key> <!-- Warning: ~s:~s/~s is undefined function (Xref) -->
-            <priority>MAJOR</priority>
+            <priority>CRITICAL</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
             <key>X003</key> <!-- Warning: ~s:~s/~s is unused local function (Xref) -->
-            <priority>MAJOR</priority>
+            <priority>CRITICAL</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
             <key>X004</key> <!-- Warning: ~s:~s/~s is unused export (Xref) -->
-            <priority>MAJOR</priority>
+            <priority>CRITICAL</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
             <key>X005</key> <!-- Warning: ~s:~s/~s calls deprecated function ~s:~s/~s (Xref) -->
-            <priority>MAJOR</priority>
+            <priority>CRITICAL</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
             <key>X006</key> <!-- Warning: ~s:~s/~s is deprecated function (Xref) -->
-            <priority>MAJOR</priority>
+            <priority>CRITICAL</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
             <key>X007</key> <!-- Warning: ~s:~s/~s - ~s xref check: ~s (Xref) -->
-            <priority>MAJOR</priority>
+            <priority>CRITICAL</priority>
             <parameters/>
         </rule>
     </rules>
