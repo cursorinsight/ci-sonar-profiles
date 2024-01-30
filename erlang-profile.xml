@@ -5,253 +5,498 @@
     <rules>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D001</key> <!-- Fun application with arguments ~s, Function that will never return a value -->
+            <key>D001</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D002</key> <!-- The call ~s:~s~s requires that ~s is of type ~s not ~s -->
+            <key>D002</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D003</key> <!-- Binary construction will fail since the ~s field ~s in segment ~s has type ~s -->
+            <key>D003</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D004</key> <!-- The call ~w:~w~s -->
+            <key>D004</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D005</key> <!-- Call to missing or unexported function ~w:~w/~w -->
+            <key>D005</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D006</key> <!-- The test ~s ~s ~s can never evaluate to 'true' -->
+            <key>D006</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D007</key> <!-- Fun application with arguments ~s will fail since the function has type ~s -->
+            <key>D007</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D008</key> <!-- Fun application will fail since ~s :: ~s is not a function of arity ~w -->
+            <key>D008</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D009</key> <!-- Guard test ~s ~s ~s can never succeed, Guard test ~w~s can never succeed -->
+            <key>D009</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D010</key> <!-- Guard test not(~s ~s ~s) can never succeed, Guard test not(~w~s) can never succeed -->
+            <key>D010</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D011</key> <!-- Clause guard cannot succeed. The ~s was matched against the type ~s -->
+            <key>D011</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D012</key> <!-- Cons will produce an improper list since its 2nd argument is ~s -->
+            <key>D012</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D013</key> <!-- The created fun has no clauses that will ever match, The created fun only terminates with explicit exception, The created fun has no local return, The created fun has no local return, Function ~w/~w has no clauses that will ever match, Function ~w/~w only terminates with explicit exception, Function ~w/~w has no local return, Function ~w/~w has no local return -->
+            <key>D013</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D014</key> <!-- Record construction ~s violates the declared type of field ~s, Record construction violates the declared type for #~w{} since ~s cannot be of type ~s -->
+            <key>D014</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D015</key> <!-- The ~s violates the declared type for #~w{} -->
+            <key>D015</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D016</key> <!-- Matching of ~s tagged with a record name violates the declared type of ~s -->
+            <key>D016</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D017</key> <!-- The ~s can never match the type ~s, The ~s can never match since previous clauses completely covered the type ~s -->
+            <key>D017</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D018</key> <!-- Expression produces a value of type ~s, but this value is unmatched -->
+            <key>D018</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D019</key> <!-- Function will never be called, Function ~w/~w will never be called -->
+            <key>D019</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D021</key> <!-- Type specification ~w:~w~s is not equal to the success typing: ~w:~w~s -->
+            <key>D021</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D022</key> <!-- Type specification ~w:~w~s is a subtype of the success typing: ~w:~w~s -->
+            <key>D022</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D023</key> <!-- Type specification ~w:~w~s is a supertype of the success typing: ~w:~w~s -->
+            <key>D023</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D024</key> <!-- The contract ~w:~w~s cannot be right because the inferred return for ~w~s on line ~w is ~s -->
+            <key>D024</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D025</key> <!-- Invalid type specification for function ~w:~w/~w. The success typing is ~s -->
+            <key>D025</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D026</key> <!-- The specification for ~w:~w/~w states that the function might also return ~s but the inferred return is ~s -->
+            <key>D026</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D027</key> <!-- Overloaded contract has overlapping domains; such contracts are currently unsupported and are simply ignored -->
+            <key>D027</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D028</key> <!-- Contract for function that does not exist: ~w:~w/~w -->
+            <key>D028</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D029</key> <!-- The call ~w:~w~s contains ~s when ~s -->
+            <key>D029</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D030</key> <!-- The call ~w:~w~s does not have ~s -->
+            <key>D030</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D031</key> <!-- Attempt to test for equality between a term of type ~s and a term of opaque type ~s -->
+            <key>D031</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D032</key> <!-- Guard test ~w~s breaks the opaqueness of its argument -->
+            <key>D032</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D033</key> <!-- The attempt to match a term of type ~s against the ~s breaks the opaqueness of ~s -->
+            <key>D033</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D034</key> <!-- Attempt to test for inequality between a term of type ~s and a term of opaque type ~s -->
+            <key>D034</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D035</key> <!-- The type test ~s(~s) breaks the opaqueness of the term ~s -->
+            <key>D035</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D036</key> <!-- The call ~w:~w~s ~s -->
+            <key>D036</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D037</key> <!-- The inferred return type of ~w/~w (~s) has nothing in common with ~s, which is the expected return type for the callback of ~w behaviour -->
+            <key>D037</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D038</key> <!-- The inferred type for the ~s argument of ~w/~w (~s) is not a supertype of ~s, which is expected type for this argument in the callback of the ~w behaviour -->
+            <key>D038</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D039</key> <!-- The return type ~s in the specification of ~w/~w is not a subtype of ~s, which is the expected return type for the callback of ~w behaviour -->
+            <key>D039</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D040</key> <!-- The specified type for the ~s argument of ~w/~w (~s) is not a supertype of ~s, which is expected type for this argument in the callback of the ~w behaviour -->
+            <key>D040</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D041</key> <!-- Undefined callback function ~w/~w (behaviour '~w') -->
+            <key>D041</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>dialyzer</repositoryKey>
-            <key>D042</key> <!-- Callback info about the ~w behaviour is not available -->
+            <key>D042</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E001</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E002</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E003</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E004</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E005</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E006</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E007</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E008</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E009</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E010</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E011</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E012</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E013</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E014</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E015</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E016</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E017</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E018</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E019</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E020</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E021</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E022</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E023</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E024</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E025</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E026</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E027</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E028</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters/>
+        </rule>
+        <rule>
+            <repositoryKey>elvis</repositoryKey>
+            <key>E029</key>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>BlockSeparatorCharacter</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -263,6 +508,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>BranchesOfRecursion</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -274,6 +520,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>DepthOfCases</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -285,12 +532,14 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>DoNotUseEmptyFlowControl</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>DoNotUseExportAll</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -302,24 +551,28 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>DoNotUseImport</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>ExportOneFunctionPerLine</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>FixmeCommentCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>FunExpressionComplexity</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -331,6 +584,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>FunctionComplexity</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -342,6 +596,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>FunctionDefAndClausesSeparation</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -357,6 +612,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>FunctionLength</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -368,6 +624,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>IndentionSize</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -379,12 +636,14 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>IsTailRecursive</key>
+            <type>BUG</type>
             <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>LineLength</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -396,6 +655,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>MethodHasSpecs</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -407,6 +667,7 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>MultipleBlankLines</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -422,24 +683,28 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>NoEmacsStyleLeadingComma</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>NoTabsForIndention</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>NoTrailingWhiteSpace</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>NumberOfFunctionArgs</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -451,54 +716,63 @@
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>SpaceAfterBeforeOperators</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
             <key>TodoCommentCheck</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
-            <key>X001</key> <!-- Warning: ~s:~s/~s calls undefined function ~s:~s/~s (Xref) -->
+            <key>X001</key>
+            <type>CODE_SMELL</type>
             <priority>CRITICAL</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
-            <key>X002</key> <!-- Warning: ~s:~s/~s is undefined function (Xref) -->
+            <key>X002</key>
+            <type>CODE_SMELL</type>
             <priority>CRITICAL</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
-            <key>X003</key> <!-- Warning: ~s:~s/~s is unused local function (Xref) -->
+            <key>X003</key>
+            <type>CODE_SMELL</type>
             <priority>CRITICAL</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
-            <key>X004</key> <!-- Warning: ~s:~s/~s is unused export (Xref) -->
+            <key>X004</key>
+            <type>CODE_SMELL</type>
             <priority>CRITICAL</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
-            <key>X005</key> <!-- Warning: ~s:~s/~s calls deprecated function ~s:~s/~s (Xref) -->
+            <key>X005</key>
+            <type>CODE_SMELL</type>
             <priority>CRITICAL</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
-            <key>X006</key> <!-- Warning: ~s:~s/~s is deprecated function (Xref) -->
+            <key>X006</key>
+            <type>CODE_SMELL</type>
             <priority>CRITICAL</priority>
             <parameters/>
         </rule>
         <rule>
             <repositoryKey>xref</repositoryKey>
-            <key>X007</key> <!-- Warning: ~s:~s/~s - ~s xref check: ~s (Xref) -->
+            <key>X007</key>
+            <type>CODE_SMELL</type>
             <priority>CRITICAL</priority>
             <parameters/>
         </rule>
