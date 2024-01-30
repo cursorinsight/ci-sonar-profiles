@@ -501,7 +501,7 @@
             <parameters>
                 <parameter>
                     <key>allowedChars</key>
-                    <value>=</value>
+                    <value>=%-</value>
                 </parameter>
             </parameters>
         </rule>
@@ -623,34 +623,10 @@
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
-            <key>IndentionSize</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters>
-                <parameter>
-                    <key>regularExpression</key>
-                    <value>4</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>erlang</repositoryKey>
             <key>IsTailRecursive</key>
             <type>BUG</type>
             <priority>MINOR</priority>
             <parameters/>
-        </rule>
-        <rule>
-            <repositoryKey>erlang</repositoryKey>
-            <key>LineLength</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters>
-                <parameter>
-                    <key>maximumLineLength</key>
-                    <value>100</value>
-                </parameter>
-            </parameters>
         </rule>
         <rule>
             <repositoryKey>erlang</repositoryKey>
